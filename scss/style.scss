@@ -1,0 +1,17 @@
+
+
+@import './abstract/mapa';
+@import './abstract/extend';
+@import './abstract/mixin';
+@import './abstract/variables';
+
+
+@import './componentes/index';
+body{
+    background-color: $bcolor;
+    font:$font-elegida;
+
+}
+
+
+

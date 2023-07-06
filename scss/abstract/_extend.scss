@@ -1,0 +1,16 @@
+%flex1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+};
+%grids4{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas:
+    "uno1 dos2";
+    font-family:'Playfair Display', serif;
+
+
+}

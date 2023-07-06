@@ -1,0 +1,44 @@
+header{
+.encabezado{
+    font:$font-elegida;
+}
+.navbar-mia{
+    background-color: $bcolor;
+}
+
+.slide-mia{
+    margin-top: $margin;
+}
+.carousel{
+    width:map-get($carousel,wid);
+    height: map-get($map: $carousel, $key:height )
+}
+}
+
+.flex1{
+    @extend %flex1;
+}
+.card-mia .img-mia{ 
+    border-radius: $border ;
+}
+.nuestrospag1{
+    @include margenes (60px, 30px, 0px, 0px) ;/*!important*/
+
+}
+
+footer{
+    .mapa{
+        float:$mapa;
+       }
+       .footeruno{
+        @include display (flex, column, center)
+       }
+       .listas{
+        @include listas (none, white)
+       }
+    
+}
+  
+
+
+

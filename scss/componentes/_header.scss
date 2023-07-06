@@ -1,0 +1,15 @@
+.encabezado{
+    font:$font-elegida;
+} 
+.encabezado img {
+    background-color: $bckblnmode;
+}
+.navbar-mia{
+    background-color: $bcolor;
+}
+.activo{
+    text-decoration:map-get($activo, $text-deco);
+    font-weight: map-get($activo, $fon-weight);
+}
+
+

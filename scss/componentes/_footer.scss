@@ -1,0 +1,9 @@
+.listas2{
+    @include logo2(100px, 100px, 40px, 1px, 30px )
+}
+.footerdos{
+    @include display(flex, column,  center)
+}
+.mapa{
+    float: $mapa;
+} 
