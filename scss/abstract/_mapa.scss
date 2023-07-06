@@ -1,6 +1,8 @@
 $carousel:(
 wid:auto,
 height:250px,
+width-:700px,
+hei-:100px,
 );
 $iddecarrito:(
     font-weight: 500,
@@ -11,7 +13,22 @@ $iddecarrito:(
     mar: 10px,
     backclor: rgb(219, 94, 94),
 );
+
 $activo: (
 text-deco: underline,
 fon-weight: bold,
+);
+
+$norelevant:(
+mrg-top: 1px,
+mrg-bot:5px,
+mrg-left:50%,
+mrg:20px,
+);
+$display:(
+dis: flex,
+flex-direction: column,
+text-alig: center,
+inl-block:inline-block,
+
 );

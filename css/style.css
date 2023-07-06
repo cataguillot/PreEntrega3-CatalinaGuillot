@@ -5,22 +5,18 @@
   justify-content: space-evenly;
 }
 
-header .encabezado {
-  font: "playfair Display" serif;
-}
-header .navbar-mia {
-  background-color: #2a4835;
-}
-header .slide-mia {
-  margin-top: 10px;
-}
-header .carousel {
+.carousel {
   width: auto;
   height: 250px;
 }
 
-.card-mia .img-mia {
-  border-radius: 0;
+.slide-mia {
+  margin-top: 10px;
+  margin-bottom: 200px;
+}
+
+.slide-mia img {
+  height: 65vh;
 }
 
 .nuestrospag1 {
@@ -31,22 +27,77 @@ header .carousel {
   /*!important*/
 }
 
-footer .mapa {
-  float: right;
+.card-mia {
+  border-radius: 0;
+  margin: 20px;
+  width: 700px;
 }
-footer .footeruno {
+
+.img-mia {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boton-mio {
+  background-color: #85a48f;
+  border-color: black;
+}
+
+.logo2 {
+  width: 100px;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 1px;
+  margin-left: 30px;
+}
+
+.mapa {
+  float: right;
+  margin-left: 50%;
+}
+
+.norelevant {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.footerdos {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-footer .listas {
-  list-style-type: none;
-  color: white;
+
+.listas li {
+  display: inline-block;
+}
+
+.encabezado {
+  font: "playfair Display", serif;
+}
+
+.encabezado img {
+  background-color: hsl(142, 26%, 22%);
+}
+
+.navbar-mia {
+  background-color: #2a4835;
+}
+
+.activo {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 body {
-  background-color: #2a4835;
-  font: "playfair Display" serif;
+  background-color: white;
+  font-family: "playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,11 +7,18 @@
 
 
 @import './componentes/index';
+@import './componentes/footer';
+@import './componentes/header';
+
 body{
-    background-color: $bcolor;
-    font:$font-elegida;
+    background-color: white;
+    font-family:$font-elegida;
 
 }
 
 
 
+*{
+    margin: 0;
+    padding: 0;
+}

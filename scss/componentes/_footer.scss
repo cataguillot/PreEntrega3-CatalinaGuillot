@@ -1,9 +1,21 @@
-.listas2{
-    @include logo2(100px, 100px, 40px, 1px, 30px )
+.logo2{
+    @include logo2(100px, 100px, 40px, 1px, 30px );
 }
-.footerdos{
-    @include display(flex, column,  center)
-}
+
 .mapa{
     float: $mapa;
+    margin-left: map-get($norelevant, mrg-left );
+} 
+.norelevant{
+    margin-top: map-get($norelevant, mrg-top);
+    margin-bottom: map-get($norelevant, mrg-bot);
+}
+.footerdos{
+    display: map-get($display,dis );
+    flex-direction: map-get($display,flex-direction );
+    text-align: map-get($display,text-alig );
+    
+}
+.listas li{
+    display:map-get($display,inl-block );
 } 

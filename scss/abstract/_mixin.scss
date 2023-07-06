@@ -3,13 +3,7 @@
     font-size: $fontsiz;
 
 }
-@mixin display($display, $flexdi, $textalign){
-    display: $display;
-   
-    flex-direction: $flexdi;
-    text-align: $textalign;
 
-}
 @mixin margenes ($margintop, $marginbot, $marginleft, $marginright){
     margin-top: $margintop;    
     margin-bottom: $marginbot;
