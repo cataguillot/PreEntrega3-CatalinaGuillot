@@ -1,13 +1,45 @@
-.flex1 {
+.flex2, .flex1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
+.grids4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr, 1fr;
+  grid-template-areas: "uno1 dos2";
+}
+
+.grids3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "uno dos tres " "cuatro cinco seis";
+  row-gap: 20px;
+}
+
+.divPadre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#carrito-page3 div {
+  font-weight: 500;
+  text-align: center;
+  font-size: larger;
+  padding: 10px;
+  border: solid black 2px;
+  margin: 10px;
+  background-color: rgb(219, 94, 94);
+}
+
 .carousel {
   width: auto;
-  height: 250px;
 }
 
 .slide-mia {
@@ -73,6 +105,15 @@
   display: inline-block;
 }
 
+h1, h2, h3 {
+  text-align: center;
+}
+
+.alinear-page4 {
+  text-align: center;
+  font-size: medium;
+}
+
 .encabezado {
   font: "playfair Display", serif;
 }
@@ -90,14 +131,68 @@
   font-weight: bold;
 }
 
+.h2prod {
+  background-color: #aabeb1;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
 body {
   background-color: white;
   font-family: "playfair Display", serif;
+  overflow-x: hidden;
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: rgb(241, 241, 233);
+  }
+  .card-mia {
+    margin: 20px;
+  }
+  .img-data {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .grids4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: "uno1 dos2";
+    font-family: "Playfair Display", serif;
+  }
+  .grids3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .divPadre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .img-data {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+  .grids4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: "uno1 dos2";
+    font-family: "Playfair Display", serif;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -19,3 +19,10 @@
 .listas li{
     display:map-get($display,inl-block );
 } 
+h1,h2,h3{
+    text-align: map-get($display, text-alig );
+}
+.alinear-page4{
+    text-align: $align;
+    font-size: $ftsize;
+}

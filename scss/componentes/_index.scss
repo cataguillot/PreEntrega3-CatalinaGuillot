@@ -1,6 +1,6 @@
 .carousel{
 width: map-get($carousel, wid );
-height: map-get($carousel, height );
+
 }
 
 .slide-mia{
@@ -34,4 +34,5 @@ height: map-get($carousel, height );
   .boton-mio{
    background-color: $color1;
    border-color: black;
+  
   }

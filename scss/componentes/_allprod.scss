@@ -1,0 +1,9 @@
+.flex2{
+    @extend %flex1;
+}
+.h2prod{
+    background-color: map-get($h2, bck );
+    margin-top: map-get($h2, mrtop);
+    margin-bottom: map-get($h2, mrbot );
+    
+}

@@ -9,10 +9,15 @@
 @import './componentes/index';
 @import './componentes/footer';
 @import './componentes/header';
+@import './componentes/allprod';
+@import './componentes/dataprod';
+@import './componentes/carrito';
+@import './componentes/frag';
 
 body{
     background-color: white;
     font-family:$font-elegida;
+    overflow-x: hidden;
 
 }
 
@@ -22,3 +27,63 @@ body{
     margin: 0;
     padding: 0;
 }
+
+
+@media(max-width: 576px){
+    body {
+        background-color: rgb(241, 241, 233); 
+      }
+  
+    .card-mia{
+       margin: 20px; 
+    }
+    .img-data{
+        width: 300px;
+        height: 300px ;
+        display: block;
+        margin: 0 auto;
+    }
+    .grids4{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr, 1fr;
+        grid-template-areas:
+        "uno1 dos2";
+        font-family:'Playfair Display', serif;
+
+    }
+    .grids3{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .divPadre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+    
+   
+
+
+@media(max-width: 576px){
+    .img-data{
+        width: 300px;
+        height: 300px ;
+        display: block;
+        margin: 0 auto;
+    }
+    .grids4{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr, 1fr;
+        grid-template-areas:
+        "uno1 dos2";
+        font-family:'Playfair Display', serif;
+
+    }
+
+}
+
