@@ -5,13 +5,6 @@
   justify-content: space-evenly;
 }
 
-.grids4 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr, 1fr;
-  grid-template-areas: "uno1 dos2";
-}
-
 .grids3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -38,10 +31,6 @@
   background-color: rgb(219, 94, 94);
 }
 
-.carousel {
-  width: auto;
-}
-
 .slide-mia {
   margin-top: 10px;
   margin-bottom: 200px;
@@ -56,7 +45,6 @@
   margin-bottom: 30px;
   margin-left: 0px;
   margin-right: 0px;
-  /*!important*/
 }
 
 .card-mia {
@@ -73,6 +61,11 @@
 }
 
 .boton-mio {
+  background-color: #85a48f;
+  border-color: black;
+}
+
+.boton-mio:hover {
   background-color: #85a48f;
   border-color: black;
 }
@@ -114,33 +107,30 @@ h1, h2, h3 {
   font-size: medium;
 }
 
+.listas img {
+  border-radius: 70px;
+  transition: all 1.4s;
+}
+
+.listas img:hover {
+  transform: scale(1.5);
+}
+
 .encabezado {
   font: "playfair Display", serif;
 }
 
 .encabezado img {
-  background-color: hsl(142, 26%, 22%);
+  background-color: #66a27c;
 }
 
 .navbar-mia {
-  background-color: #2a4835;
+  background-color: #66a27c;
 }
 
 .activo {
   text-decoration: underline;
   font-weight: bold;
-}
-
-.h2prod {
-  background-color: #aabeb1;
-  margin-top: 70px;
-  margin-bottom: 40px;
-}
-
-body {
-  background-color: white;
-  font-family: "playfair Display", serif;
-  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -150,6 +140,31 @@ h1, h2, h3 {
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: "playfair Display", serif;
+  overflow-x: hidden;
+}
+
+.h2prod {
+  background-color: #aabeb1;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.forms {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mapapag5 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
@@ -175,6 +190,8 @@ h1, h2, h3 {
   .grids3 {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
   .divPadre {
     display: flex;
@@ -189,13 +206,6 @@ h1, h2, h3 {
     height: 300px;
     display: block;
     margin: 0 auto;
-  }
-  .grids4 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr, 1fr;
-    grid-template-areas: "uno1 dos2";
-    font-family: "Playfair Display", serif;
   }
 }
 

@@ -1,5 +1,5 @@
 .carousel{
-width: map-get($carousel, wid );
+width: map-get($carousel, wid,hei);
 
 }
 
@@ -16,14 +16,17 @@ width: map-get($carousel, wid );
 }
 
 .nuestrospag1{
-    @include margenes (60px, 30px, 0px, 0px) ;/*!important*/
+    @include margenes (60px, 30px, 0px, 0px) ;
 
 }
 .card-mia {
     border-radius: $border;
     margin: $margin*2;
     width: map-get($carousel, width- );
+   
+  
 }
+
   .img-mia{
     border-radius: $border;
     width: 100%;
@@ -32,7 +35,12 @@ width: map-get($carousel, wid );
 
   }
   .boton-mio{
-   background-color: $color1;
-   border-color: black;
-  
+    background-color: $color1;
+    border-color: black;
+   
   }
+
+.boton-mio:hover{
+    background-color: $color1;
+    border-color: black;
+}

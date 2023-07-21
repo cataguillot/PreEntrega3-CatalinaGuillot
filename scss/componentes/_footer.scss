@@ -26,3 +26,12 @@ h1,h2,h3{
     text-align: $align;
     font-size: $ftsize;
 }
+.listas img {
+    border-radius:$brd-radius;
+ transition: $transition;
+
+   
+}
+.listas img:hover{
+   transform: $transform;
+}

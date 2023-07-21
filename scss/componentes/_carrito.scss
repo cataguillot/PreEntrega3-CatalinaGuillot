@@ -1,3 +1,16 @@
 #carrito-page3 div{
     @extend %carrito;
 }
+.forms{
+    @include margenes (80px, 50px, 0px, 0px) ;
+}
+.mapapag5{
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+   
+}
+
+
+

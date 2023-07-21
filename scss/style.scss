@@ -14,21 +14,11 @@
 @import './componentes/carrito';
 @import './componentes/frag';
 
-body{
-    background-color: white;
-    font-family:$font-elegida;
-    overflow-x: hidden;
 
-}
 
-h1,h2,h3{
-    text-align: map-get($display, text-alig );
-}
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 
 
 @media(max-width: 576px){
@@ -57,7 +47,8 @@ h1,h2,h3{
     .grids3{
         display: flex;
         flex-direction: column;
-
+        text-align: center;
+        align-items: center;
     }
     .divPadre{
         display: flex;
@@ -77,15 +68,7 @@ h1,h2,h3{
         display: block;
         margin: 0 auto;
     }
-    .grids4{
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr, 1fr;
-        grid-template-areas:
-        "uno1 dos2";
-        font-family:'Playfair Display', serif;
-
-    }
+   
 
 }
 
